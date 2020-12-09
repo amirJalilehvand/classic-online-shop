@@ -1,0 +1,32 @@
+{
+  "name": "classic_online_shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "amirLms",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "csurf": "^1.11.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "pdfkit": "^0.11.0"
+  }
+}
