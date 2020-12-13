@@ -1,4 +1,6 @@
 # classic-shop
-first you have to use "npm install"
-then you have to edit the MONGO_URI variable according to the coments
-and then run "npm start" and use the app
+run "npm install"
+
+attention: you have to edit the MONGO_URI variable and enter your own mongoDb Account username, password and database name, according to the coments
+
+run "npm start" and use the app
